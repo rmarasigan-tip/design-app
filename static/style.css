@@ -1,0 +1,10 @@
+body {background-color:rgb(107, 201, 245)}
+
+.container{
+    background-color: transparent;
+    width: 450px; 
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+     margin-top: 100px;
+}
