@@ -18,6 +18,6 @@ echo "CMD python3 /home/myapp/login.py" >> tempdir/Dockerfile
 
 cd tempdir
 docker build -t loginapp .
-docker run -t -d -p 5050:5050 --name loginrunning designapp
+docker run -t -d -p 5050:5050 --name loginrunning loginapp
 docker ps -a
 
